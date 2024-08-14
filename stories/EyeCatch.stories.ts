@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import EyeCatch from '../components/elements/EyeCatch';
+import EyeCatch from '@/components/elements/eye-catch/EyeCatch';
 
 const meta = {
     title: 'Component/EyeCatch',
@@ -14,10 +14,13 @@ type Story = StoryObj<typeof meta>;
 
 export const Technology: Story = {
     args: {
-        imageData: { // このデータはサンプルです。実際のデータに置き換えてください。
-            slug: 'sample-post',
-            featureImg: '/post_1.jpg', // 仮の画像URLです。適切な画像URLに変更してください。
+        image: {
+            slug: '#',
+            url: '/post_1.jpg',
             title: 'Sample Technology Post',
+            width: 730,
+            height: 550,
         },
+        isHovered: false,
     },
 };

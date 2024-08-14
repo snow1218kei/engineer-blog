@@ -1,18 +1,15 @@
 import React from 'react';
-import styled from 'styled-components';
+import styles from "./Excerpt.module.css"
 
 export interface ExcerptProps {
     excerpt: string;
 }
 
-const ExcerptContainer = styled.p`
-  font-size: 1.4rem;
-  line-height: 2.4rem;
-`
-
 const Excerpt = ({excerpt}: ExcerptProps) => {
     return (
-        <ExcerptContainer>{excerpt}</ExcerptContainer>
+        <div className={styles['excerpt-container']}>
+            {excerpt}
+        </div>
     );
 }
 

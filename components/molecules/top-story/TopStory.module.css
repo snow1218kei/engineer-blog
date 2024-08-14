@@ -1,0 +1,39 @@
+.top-story-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.article-detail-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 50px;
+}
+
+.article-detail-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 0;
+    list-style: none;
+    color: #D3D7DA;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.article-detail-list li {
+    position: relative;
+    margin-right: 10px;
+}
+
+.dot {
+    position: relative;
+    padding: 0 10px 0 0;
+    top: -3px;
+}
+

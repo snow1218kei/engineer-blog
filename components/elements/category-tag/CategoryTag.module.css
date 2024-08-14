@@ -1,0 +1,37 @@
+.tag {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    padding: 6px 11px 4px;
+    z-index: 1;
+    text-transform: uppercase;
+}
+
+.tag::before {
+    position: absolute;
+    content: " ";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+.tag:hover::before {
+    width: 100%;
+    right: auto;
+    left: 0;
+}
+
+.travel-color {
+    background-color: #5856D5;
+}

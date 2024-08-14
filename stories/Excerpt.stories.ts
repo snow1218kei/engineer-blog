@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Excerpt from '../components/elements/Excerpt';
+import Excerpt from '../components/elements/article-excerpt/Excerpt';
 
 const meta = {
     title: 'Component/Excerpt',

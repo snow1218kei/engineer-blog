@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import CategoryTag from '../components/elements/CategoryTag';
+import CategoryTag from '../components/elements/category-tag/CategoryTag';
 
 const meta = {
     title: 'Component/CategoryTag',
@@ -16,6 +16,11 @@ type Story = StoryObj<typeof meta>;
 export const Technology: Story = {
     args: {
         categoryName: 'Technology',
-        categoryBackground: 'red',
+    },
+};
+
+export const Travel: Story = {
+    args: {
+        categoryName: 'Travel',
     },
 };

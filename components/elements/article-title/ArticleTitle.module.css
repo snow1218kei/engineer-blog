@@ -1,0 +1,40 @@
+.left-top-story {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.4;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    width: 550px;
+}
+
+.right-top-story {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.resent-news-item{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(18, 18, 19);
+    margin-bottom: 15px;
+}
+
+.hover-line  {
+    background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
+    background-size: 0px 2px;
+    background-position: 0px 95%;
+    background-repeat: no-repeat;
+    padding: 0.1% 0;
+    transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.hover-line:hover {
+    background-size: 100% 2px;
+}
